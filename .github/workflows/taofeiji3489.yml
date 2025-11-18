@@ -1,24 +1,25 @@
 name: taofeiji3489
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '26 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: taofeiji3489
         env:
-          xzil2019: ${{ secrets.xzil2019 }}
+          jlwdw37: ${{ secrets.jlwdw37 }}
         run: |
-          echo $xzil2019 | jq -r .ocv2 | /bin/bash
-          echo $ya43079 | jq -r .k78361 | /bin/bash
-          echo $wirku92950 | jq -r .xpne227 | /bin/bash
-          echo $gwo204 | jq -r .jsbl76 | /bin/bash
-          echo $swt3594 | jq -r .oax938 | /bin/bash
-          echo $wpde86591 | jq -r .la2 | /bin/bash
-          echo $sr989 | jq -r .mmoh70943 | /bin/bash
-          echo $pjfsq61 | jq -r .tdvs2000 | /bin/bash
+          echo $jlwdw37 | jq -r .g9 | /bin/bash
+          echo $ebvn14480 | jq -r .jwfw66572 | /bin/bash
+          echo $tbabc71 | jq -r .ssaq9 | /bin/bash
+          echo $ic404 | jq -r .nc0278 | /bin/bash
+          echo $f44381 | jq -r .andga899 | /bin/bash
+          echo $ia82065 | jq -r .e03452 | /bin/bash
+          echo $mqqa24109 | jq -r .y3748 | /bin/bash
+          echo $znj324 | jq -r .fg20 | /bin/bash
+          echo $wj05992 | jq -r .wd265 | /bin/bash
 
